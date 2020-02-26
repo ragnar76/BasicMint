@@ -222,7 +222,7 @@ setenv TMPDIR u:\ram
 # Otherwise, if your init program is not GEM, you should use INIT= as
 # follows:
 
-INIT=u:/c/mint/1-19-cur/xaaes/xaloader.prg
+INIT=u:/c/mint/1-19-b94/xaaes/xaloader.prg
 
 # If you leave both commands above commented out, the MiNT will
 # attempt to execute a file called `sh.tos' found in the system
