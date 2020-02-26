@@ -1,0 +1,372 @@
+TeraDesk-inf
+
+; Avoid editing this file by hand !!!
+
+options=
+{
+	infv=0x0400
+	save=0x0000
+	dial=0x0002
+	xpre=0x0000
+	pref=0x101F
+	buff=512
+	maxd=256
+	plin=80
+	tabs=8
+	cwin=0
+	mode=0
+	sort=0
+	aarr=1
+	attr=0x0014
+	flds=0x001F
+	vidp=0x0000
+	vres=0
+	dpat=7
+	dcol=3
+	wpat=1
+	wcol=0
+}
+
+shortcuts=
+{
+	open=0x024F
+	show=0x0249
+	srch=0x0246
+	prin=0x0250
+	dele=0x027F
+	sela=0x0241
+	quit=0x0251
+	cycl=0x0257
+	svop=0x0253
+}
+
+filetypes=
+{
+	ftype=
+	{
+		mask=*
+	}
+	ftype=
+	{
+		mask=*.*
+	}
+	ftype=
+	{
+		mask=*.PRG
+	}
+	ftype=
+	{
+		mask=*.APP
+	}
+	ftype=
+	{
+		mask=*.GTP
+	}
+	ftype=
+	{
+		mask=*.TOS
+	}
+	ftype=
+	{
+		mask=*.TTP
+	}
+	ftype=
+	{
+		mask=*.ACC
+	}
+	ftype=
+	{
+		mask=*.TXT
+	}
+	ftype=
+	{
+		mask=*.IMG
+	}
+}
+
+apptypes=
+{
+	ptype=
+	{
+		name=*.PRG
+		flag=0x2001
+	}
+	ptype=
+	{
+		name=*.APP
+		flag=0x2001
+	}
+	ptype=
+	{
+		name=*.GTP
+		appt=1
+		flag=0x2001
+	}
+	ptype=
+	{
+		name=*.TOS
+		appt=3
+		flag=0x2000
+	}
+	ptype=
+	{
+		name=*.TTP
+		appt=4
+		flag=0x2000
+	}
+	ptype=
+	{
+		name=*.ACC
+		appt=2
+		flag=0x2000
+	}
+}
+
+icontypes=
+{
+}
+
+deskicons=
+{
+	icon=
+	{
+		name=FLOPPY
+		labl=Floppy
+		type=1
+	}
+	icon=
+	{
+		name=HARD@DISC
+		labl=Boot
+		type=1
+		driv=2
+		xpos=1
+	}
+	icon=
+	{
+		name=MINT
+		labl=FreeMiNT
+		type=1
+		driv=20
+		xpos=2
+	}
+	icon=
+	{
+		name=PRINTER
+		labl=PRINTER
+		type=3
+		xpos=3
+	}
+	icon=
+	{
+		name=TRASH
+		labl=TRASH
+		type=2
+		xpos=4
+	}
+	icon=
+	{
+		name=INFORMATION
+		labl=Screenmodes
+		type=5
+		path=C:\MINT\SETUP\MODES.PRG
+		ypos=1
+	}
+	icon=
+	{
+		name=INFORMATION
+		labl=Networking
+		type=5
+		path=C:\MINT\SETUP\NETCONF.PRG
+		xpos=1
+		ypos=1
+	}
+	icon=
+	{
+		name=INFORMATION
+		labl=Keyboard
+		type=5
+		path=C:\MINT\SETUP\KEYEDIT.APP
+		xpos=2
+		ypos=1
+	}
+}
+
+applications=
+{
+	app=
+	{
+		path=C:\mint\tools\hypview\hyp_view.app
+		cmdl=%f
+		atype=
+		{
+			flag=0x2001
+		}
+		doctypes=
+		{
+			dtype=
+			{
+				mask=*.hyp
+			}
+		}
+	}
+	app=
+	{
+		path=C:\apps\qed-453\qed.app
+		cmdl=%f
+		atype=
+		{
+			flag=0x2009
+		}
+	}
+	app=
+	{
+		path=C:\mint\tools\taskbar\taskbar.prg
+		cmdl=%f
+		atype=
+		{
+			flag=0x2811
+		}
+	}
+}
+
+windows=
+{
+	directories=
+	{
+		font=
+		{
+			iden=1
+			size=10
+			fcol=1
+		}
+		pos=
+		{
+			xpos=135
+			ypos=39
+			winw=40
+			winh=20
+		}
+		pos=
+		{
+			xpos=295
+			ypos=143
+			winw=42
+			winh=13
+		}
+		pos=
+		{
+			xpos=119
+			ypos=103
+			winw=44
+			winh=14
+		}
+		pos=
+		{
+			xpos=208
+			ypos=82
+			winw=46
+			winh=16
+		}
+		pos=
+		{
+			xpos=224
+			ypos=98
+			winw=48
+			winh=16
+		}
+		pos=
+		{
+			xpos=240
+			ypos=114
+			winw=50
+			winh=16
+		}
+		pos=
+		{
+			xpos=256
+			ypos=130
+			winw=52
+			winh=16
+		}
+		pos=
+		{
+			xpos=272
+			ypos=146
+			winw=54
+			winh=16
+		}
+	}
+	views=
+	{
+		font=
+		{
+			iden=1
+			size=10
+			fcol=1
+		}
+		pos=
+		{
+			xpos=79
+			ypos=38
+			winw=65
+			winh=14
+		}
+		pos=
+		{
+			xpos=88
+			ypos=70
+			winw=62
+			winh=12
+		}
+		pos=
+		{
+			xpos=96
+			ypos=102
+			winw=62
+			winh=12
+		}
+		pos=
+		{
+			xpos=104
+			ypos=134
+			winw=64
+			winh=12
+		}
+		pos=
+		{
+			xpos=112
+			ypos=166
+			winw=64
+			winh=12
+		}
+		pos=
+		{
+			xpos=120
+			ypos=198
+			winw=66
+			winh=12
+		}
+		pos=
+		{
+			xpos=128
+			ypos=230
+			winw=66
+			winh=12
+		}
+		pos=
+		{
+			xpos=136
+			ypos=262
+			winw=68
+			winh=12
+		}
+	}
+}
+
+avstats=
+{
+}
+
+end
+

@@ -1,0 +1,101 @@
+; German language resource for Taskbar
+; The first section contains localized embedded strings.
+;TASKBAR.C
+;-------------------------------------------------------------------------------
+AL_AVSERVERNOTFOUNT	[1][AVSERVER nicht|gefunden!][Abbruch]
+MN_TERMINATE	  Terminate       
+AL_HIDEAPP	[2][Programm verstecken][Permanent|TemporÑr]
+AL_NODRAG	[1][Objekte kînnen nicht auf|Taskbar's Hintergrund|gezogen werden!|(%s)][ OK ]
+BU_APPINFO	Name:      %s|Long-Name: %s|Apid:      %d|Pid:       %d
+;
+;
+;CONFIG.C
+;-------------------------------------------------------------------------------
+WI_CONFIGURE	 Konfiguration
+WI_CONFIGAPP	 Programm konfigurieren
+DI_VERSION	Version %s (%s)
+AL_LOOSECHANGES	[2][énderungen verwerfen|oder Åbernehmen?][Verwerfen|Setzen]
+AL_INVALIDFONT	[3][UngÅltige Font-ID!|Bitte einen anderen|Font wÑhlen.][OK]
+;
+;DIVERSE.C
+;-------------------------------------------------------------------------------
+AL_NOSDMASTER	[1][Taskbar:|Fehler: Kann Shutdown-Master|nicht starten.|Ist $SDMASTER definiert?][  OK  ]
+;
+;MENY.C
+;--------------"---------------------------------------------------------------"
+MN_ADDPROG	  Objekte hinzufÅgen                                          
+MN_DOCS	  Dokumente                                             
+MN_CPANEL	  Kontrollfelder                                               
+MN_SEARCH	  Suchen...                                                    
+MN_SHELL	  Shell starten                                              
+MN_HOME	  Eigener Ordner                                               
+AL_USEJAYGRP	[1][JayGroups starten, um|neue Objekte hinzuzufÅgen.][OK|Start JayGroups|Hilfe]
+WI_CMDLINE	 Kommandozeile
+AL_CMDALREADYOPEN	[3][Kommandozeile ist|bereits geîffnet.][ OK ]
+;
+;BUBBLES.H
+;-------------------------------------------------------------------------------
+HELP_STARTBUTTON	Linksklick: Programme/Dokumente îffnen. Rechtsklick: Konfiguration/Hilfe.
+HELP_BACKGROUND	Linksklick: Auto-verstecken an/aus. Rechtsklick: Optionen.
+;
+; This section contains strings declared in the RSC.
+;
+; Dialog RUN
+Cancel	Abbruch
+OK	OK
+;
+; Dialog APPCONFIG
+Use defaults	Standardeinstellungen
+Don't display in Taskbar	Nicht in Taskbar zeigen
+Display icon only	Nur Icon zeigen
+Select icon	Icon wÑhlen
+Nick	Alias
+Buttonstyle	Button-Stil
+;
+; Popups
+  Configure	  Konfigurieren
+  Kill	  Kill
+  Quit	  Beenden
+  Hide others	  Andere verst.
+  Hide	  Verstecken
+  Show	  Hervorholen
+  Help	  Hilfe
+  About	  öber...
+  Show hidden apps 	  Versteckte zeigen 
+  Processes	  Prozesse
+  Shutdown	  Shutdown
+  Flat	  Normal
+  Traditional	  3D-Button
+  Start button	  Start-Button
+  Accessories	  Accessories
+  Applications	  Programme
+  Desktop	  Desktop
+  Clock	  Zeit/Datum
+  <automatic>	  <automatisch>
+;
+; Dialog CONFIG
+Apply	Setzen
+Autohide	Auto-verstecken
+ Options 	 Optionen
+Autotop	Auto-toppen
+Always on top	Immer zuoberst
+Togglemode	Toggle-Modus
+Show accs	ACCs zeigen
+Show date	Datum zeigen
+Show time	Zeit zeigen
+Help bubbles	Tooltips
+Language	Sprache
+ Appearance 	 Darstellung
+Font	Font
+Size	Grîûe
+pts	pts
+Select	WÑhlen
+Raised buttons	3D-Buttons
+Display icons	Icons zeigen
+Set colours	Farbeinstellungen
+Norm	Norm
+Sel	Sel
+Text	3D-Text
+Light shade	3D-Schatten
+Dark shade	Normal-Text
+ Start button 	 Start-Button 

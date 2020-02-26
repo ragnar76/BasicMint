@@ -1,0 +1,3 @@
+setenv AVSERVER		"DESKTOP "
+setenv FONTSELECT	"DESKTOP "
+shell = c:\mint\teradesk\desktop.prg

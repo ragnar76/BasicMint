@@ -1,0 +1,102 @@
+; English language resource for Taskbar
+; The first section contains localized embedded strings.
+;TASKBAR.C
+;-------------------------------------------------------------------------------
+AL_AVSERVERNOTFOUNT	[1][AVSERVER ikkje funnen!][ Avbryt ]
+MN_TERMINATE	  Avslutt       
+AL_HIDEAPP	[2][G³ym applikasjon...][Permanent|Midlertidig]
+AL_NODRAG	[1][Taskbar gjer ingenting med objekt som|blir sluppe p† bakgrunnen|(%s)][OK]
+BU_APPINFO	Navn:      %s|Fullt navn: %s|Apid:      %d|Pid:       %d
+;
+;
+;CONFIG.C
+;-------------------------------------------------------------------------------
+WI_CONFIGURE	 Konfigur‚r 
+WI_CONFIGAPP	 Konfigur‚r applikasjon 
+DI_VERSION	Versjon %s (%s)
+AL_LOOSECHANGES	[2][Vil du kaste eller bruke|endringane du har gjort?][Kast|Bruk]
+AL_INVALIDFONT	[3][Ugyldig font-ID!|Velg ny skrifttype][OK]
+;
+;DIVERSE.C
+;-------------------------------------------------------------------------------
+AL_NOSDMASTER	[1][Taskbar:|Kunne ikkje finne Shutdownmaster|$SDMASTER m† vere definert][OK]
+;
+;MENY.C
+;--------------"---------------------------------------------------------------"
+MN_ADDPROG	  Legg til applikasjonar...                                    
+MN_DOCS	  Nyleg brukte dokument                                        
+MN_CPANEL	  Kontrollpanel                                                
+MN_SEARCH	  S³k...                                                       
+MN_SHELL	  Start shell                                                  
+MN_HOME	  Mine dokument                                                
+AL_USEJAYGRP	[1][Bruk JayGroups for † legge|til program i start-menyen.][Ok|Start JayGroups|Hjelp!]
+WI_CMDLINE	 Kommandolinje 
+AL_CMDALREADYOPEN	[3][Ei kommandolinje er allereie †pen.][OK]
+;
+;BUBBLES.H
+;-------------------------------------------------------------------------------
+HELP_STARTBUTTON	Left-click to launch applications or documents, right-click to configure or get more help.
+HELP_BACKGROUND	Click to toggle auto hide on/off. Right click for options.
+;
+; This section contains strings declared in the RSC.
+;
+; Dialog RUN
+Cancel	Avbryt
+OK	OK
+;
+; Dialog APPCONFIG
+Use defaults	Standardverdier
+Don't display in Taskbar	Ikkje vis i Taskbar
+Display icon only	Vis kun ikon
+Select icon	Velg ikon
+Nick	Alias
+Buttonstyle	Knapp-stil
+ Settings 	 Eigenskapar 
+;
+; Popups
+  Configure	  Konfigur‚r
+  Kill	  Drep
+  Quit	  Avslutt
+  Hide others	  G³ym andre
+  Hide	  G³ym
+  Show	  Vis
+  Help	  Hjelp
+  About	  Om Taskbar
+  Show hidden apps 	  Vis g³ymde applikasjonar 
+  Processes	  Prosessar
+  Shutdown	  Sl† av
+  Flat	  Flat
+  Traditional	  Tradisjonell
+  Start button	  Start-knapp
+  Accessories	  Accessories
+  Applications	  Applikasjonar
+  Desktop	  Skrivebord
+  Clock	  Klokke
+  <automatic>	  <automatisk>
+;
+; Dialog CONFIG
+Apply	Bruk
+Autohide	G³ym automatisk
+ Options 	 Alternativ 
+Autotop	Topp automatisk
+Always on top	Alltid p† topp
+Togglemode	Vekslemodus
+Show accs	Vis accs
+Show date	Vis dato
+Show time	Vis klokke
+Help bubbles	Hjelpetekstar
+Language	Spr†k
+ Appearance 	 Utsj†nad 
+Font	Skrifttype
+Size	Str
+pts	ptk
+Select	Velg
+Raised buttons	3D-knappar
+Display icons	Vis ikon
+Set colours	Vel fargar
+Norm	Norm
+Sel	Valgt
+Text	Tekst
+Light shade	Lys skugge
+Dark shade	M³rk skugge
+ Start button 	 Startknapp 

@@ -1,0 +1,18 @@
+set horizontal-scroll-mode Off
+
+set meta-flag On 
+set input-meta On
+
+set convert-meta Off
+
+set output-meta On
+
+"\d": delete-char
+"\b": backward-delete-char
+"\eE": beginning-of-line
+"\ea": beginning-of-history
+"\eb": end-of-history
+"\eD": backward-char
+"\eC": forward-char
+"\eA": previous-history
+"\eB": next-history

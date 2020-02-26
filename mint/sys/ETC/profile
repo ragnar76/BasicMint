@@ -1,0 +1,5 @@
+echo -ne '\ev'
+export PS1="\u@\h \W $ "
+cd
+
+function dmalloc { eval `command dmalloc -b $*`; }

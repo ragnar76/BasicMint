@@ -1,0 +1,101 @@
+; English language resource for Taskbar
+; The first section contains localized embedded strings.
+;TASKBAR.C
+;-------------------------------------------------------------------------------
+AL_AVSERVERNOTFOUNT	[1][AVSERVER not found!][ Abort ]
+MN_TERMINATE	  Terminate       
+AL_HIDEAPP	[2][Hide application][Permanently|Temporarely]
+AL_NODRAG	[1][Taskbar doesn't do anything with|items dragged to the background|(%s)][OK]
+BU_APPINFO	Name:      %s|Long name: %s|Apid:      %d|Pid:       %d
+;
+;
+;CONFIG.C
+;-------------------------------------------------------------------------------
+WI_CONFIGURE	 Configure 
+WI_CONFIGAPP	 Configure application 
+DI_VERSION	Version %s (%s)
+AL_LOOSECHANGES	[2][Do you want to loose or|apply the changes made?][Loose|Apply]
+AL_INVALIDFONT	[3][Invalid font ID!|Select new font][OK]
+;
+;DIVERSE.C
+;-------------------------------------------------------------------------------
+AL_NOSDMASTER	[1][Taskbar:|Error: Couldn't launch|Shutdown-Master|$SDMASTER must be defined][  OK  ]
+;
+;MENY.C
+;--------------"---------------------------------------------------------------"
+MN_ADDPROG	  Add new programs...                                          
+MN_DOCS	  Recent documents                                             
+MN_CPANEL	  Control Panel                                                
+MN_SEARCH	  Search...                                                    
+MN_SHELL	  Start shell                                                  
+MN_HOME	  My documents                                                 
+AL_USEJAYGRP	[1][Use JayGroups to add|programs to the start-menu.][Ok|Start JayGroups|Help!]
+WI_CMDLINE	 Command line 
+AL_CMDALREADYOPEN	[3][Command line already open.][ OK ]
+;
+;BUBBLES.H
+;-------------------------------------------------------------------------------
+HELP_STARTBUTTON	Left-click to launch applications or documents, right-click to configure or get more help.
+HELP_BACKGROUND	Click to toggle auto hide on/off. Right click for options.
+;
+; This section contains strings declared in the RSC.
+;
+; Dialog RUN
+Cancel	Cancel
+OK	OK
+;
+; Dialog APPCONFIG
+Use defaults	Use defaults
+Don't display in Taskbar	Don't display in Taskbar
+Display icon only	Display icon only
+Select icon	Select icon
+Nick	Nick
+Buttonstyle	Buttonstyle
+;
+; Popups
+  Configure	  Configure
+  Kill	  Kill
+  Quit	  Quit
+  Hide others	  Hide others
+  Hide	  Hide
+  Show	  Show
+  Help	  Help
+  About	  About
+  Show hidden apps 	  Show hidden apps 
+  Processes	  Processes
+  Shutdown	  Shutdown
+  Flat	  Flat
+  Traditional	  Traditional
+  Start button	  Start button
+  Accessories	  Accessories
+  Applications	  Applications
+  Desktop	  Desktop
+  Clock	  Clock
+  <automatic>	  <automatic>
+;
+; Dialog CONFIG
+Apply	Apply
+Autohide	Autohide
+ Options 	 Options 
+Autotop	Autotop
+Always on top	Always on top
+Togglemode	Togglemode
+Show accs	Show accs
+Show date	Show date
+Show time	Show time
+Help bubbles	Tooltips
+Language	Language
+ Appearance 	 Appearance 
+Font	Font
+Size	Size
+pts	pts
+Select	Select
+Raised buttons	Raised buttons
+Display icons	Display icons
+Set colours	Set colours
+Norm	Norm
+Sel	Sel
+Text	Text
+Light shade	Light shade
+Dark shade	Dark shade
+ Start button 	 Start button 
